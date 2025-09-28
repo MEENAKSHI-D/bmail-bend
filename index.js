@@ -5,7 +5,9 @@ const mongoose = require("mongoose")
 
 const app = express()
 
-app.use(cors())
+app.use(cors({origin: "https://your-frontend.vercel.app", // frontend URL
+  methods: ["GET", "POST"]
+}))
 app.use(express.json())
 
 
