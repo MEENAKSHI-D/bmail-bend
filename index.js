@@ -10,7 +10,7 @@ app.use(cors({origin: "https://bmail-fend-4jj9.vercel.app"
 app.use(express.json());
 
 
-mongoose.connect(`mongodb+srv://meena20040>:kums20@cluster0.v61yjgl.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0`).then(function(){
+mongoose.connect("mongodb+srv://meena20040:kums20@cluster0.v61yjgl.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0").then(function(){
     console.log("connected to database..");
     
 }).catch(function(){
