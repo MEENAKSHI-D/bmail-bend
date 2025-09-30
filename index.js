@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 
-mongoose.connect("mongodb+srv://meenakshi:98765@cluster0.v61yjgl.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0").then(function(){
+mongoose.connect(`mongodb+srv://meena2020:kk25@cluster0.v61yjgl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`).then(function(){
     console.log("connected to database..");
     
 }).catch(function(){
