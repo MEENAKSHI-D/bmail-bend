@@ -5,8 +5,7 @@ const mongoose = require("mongoose")
 
 const app = express()
 
-app.use(cors({origin: "https://bmail-fend-4jj9.vercel.app" 
-}));
+app.use(cors());
 app.use(express.json());
 
 
